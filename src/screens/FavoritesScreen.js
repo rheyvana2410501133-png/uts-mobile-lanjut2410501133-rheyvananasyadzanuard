@@ -7,10 +7,15 @@ import styles from '../styles/FavoritesStyle';
 
 export default function FavoritesScreen() {
   const navigation = useNavigation();
-  const { favorites, removeFavorite } = useFavoriteStore();
+  const { favorites, removeFavorite, clearFavorites } = useFavoriteStore();
 
   return (
     <View style={styles.container}>
+      {favorites.length > 0 && (
+        <TouchableOpacity onPress={clearFavorites} style={styles.clearBtn}>
+          <Text style={styles.clearText}>Hapus Semua</Text>
+        </TouchableOpacity>
+      )}
       <FlatList
         data={favorites}
         keyExtractor={(item) => item.idMeal}

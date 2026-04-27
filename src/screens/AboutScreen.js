@@ -46,7 +46,7 @@ export default function AboutScreen() {
       </View>
 
       <Text style={styles.footer}>
-        Dibuat untuk UTS Pemrograman Mobile Lanjut {'\n'} TA. 2025/2026
+        Dibuat untuk UTS Pemrograman Mobile Lanjut {'\n'}
       </Text>
 
     </ScrollView>

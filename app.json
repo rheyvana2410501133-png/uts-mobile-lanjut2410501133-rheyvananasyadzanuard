@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "uts-mobile-lanjut-rheyvana",
-    "slug": "uts-mobile-lanjut-rheyvana",
+    "name": "Resep Kita",
+    "slug": "resepkita",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

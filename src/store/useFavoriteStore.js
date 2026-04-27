@@ -14,6 +14,8 @@ const useFavoriteStore = create((set) => ({
     set((state) => ({
       favorites: state.favorites.filter((f) => f.idMeal !== idMeal),
     })),
+
+  clearFavorites: () => set({ favorites: [] }),
 }));
 
 export default useFavoriteStore;

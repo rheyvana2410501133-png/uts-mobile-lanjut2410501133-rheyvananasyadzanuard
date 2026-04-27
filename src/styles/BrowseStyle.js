@@ -34,4 +34,30 @@ export default StyleSheet.create({
     fontWeight: '600',
     flexShrink: 1,
   },
+
+  loading: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  errorText: {
+    fontSize: 16,
+    color: '#ff4d4d',
+    textAlign: 'center',
+  },
+
+  retryBtn: {
+    marginTop: 12,
+    backgroundColor: '#ff4d4d',
+    paddingHorizontal: 24,
+    paddingVertical: 10,
+    borderRadius: 8,
+  },
+
+  retryText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
 });
